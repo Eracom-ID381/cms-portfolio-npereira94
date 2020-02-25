@@ -1,0 +1,567 @@
+/* START-Base*/
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 11rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.aboutmelist {
+  font-size: 1.5rem;
+  text-align: left;
+  color: pink;
+  padding-bottom: 8rem;
+}
+
+.w3-row-padding img {
+  margin-bottom: 0.75rem;
+}
+
+p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.aboutme {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.subtittle {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 11rem;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 80px;
+  background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 7.5rem;
+}
+
+/* START-Gallery */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Center website */
+.main {
+  max-width: 62.5rem;
+  margin: auto;
+}
+
+.row {
+  margin: 0.75rem -1rem;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+  padding: 0.5rem;
+}
+
+.row>.list {
+  padding: 0.5rem;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Hide all elements by default */
+.list {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 0.5rem;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons (others) */
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.75rem 1rem;
+  background-color: white;
+  cursor: crosshair;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: pink;
+  color: white;
+}
+
+/* effects img */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* End-Gallery */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* START-VIDEO*/
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.content-video {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 12.5rem;
+  font-size: 1.25rem;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* COMING SOON OVERLAY*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: BLACK;
+}
+
+.text {
+  font-size: 5rem;
+  position: absolute;
+  font-family: 'Roboto Mono', monospace;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: pink;
+}
+
+.container {
+  position: relative;
+  background-color: BLACK;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+#myBtn {
+  width: 1rem;
+  font-size: 0.3rem;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: yellow;
+  cursor: pointer;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Tablet*/
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    width: 100%;
+  }
+
+  .w3-button {
+    style="width:10%;
+
+  }
+
+  .w3-jumbo {
+    font-size: 5rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 11rem;
+  }
+
+  h1 {
+    padding-top: 11rem;
+    text-align: center;
+  }
+
+  .w3-bar-item {
+    style="width:10%;
+
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+
+  .aboutmelist {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .aboutme {
+    font-size: 1rem;
+  }
+}
+
+/* between tablet and mobile*/
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 100%;
+  }
+
+  /* Padding left main*/
+  .main {
+    padding-left: 1rem;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  .w3-jumbo {
+    font-size: 6rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 11rem;
+  }
+
+  h1 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+/* Mobile*/
+@media only screen and (max-width: 543px) {
+  .main {
+    padding-left: 1rem;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  /* Style the buttons (others) */
+  .btngraphism {
+    border: none;
+    outline: none;
+    padding: 0.75rem;
+    background-color: white;
+    cursor: crosshair;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .btn3d {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+    cursor: crosshair;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .btnall {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+    cursor: crosshair;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .btncomm {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+    cursor: crosshair;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  /* Content */
+  .content {
+    padding: 0.5rem;
+    font-size: 0.2rem;
+  }
+
+  h4 {
+    font-size: 0.7rem;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 100;
+    background-color: #008CBA;
+  }
+
+  .w3-jumbo {
+    font-size: 5rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  h1 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+/* Mobile smaller*/
+@media only screen and (max-width: 300px) {
+  .main {
+    padding-left: 1rem;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  /* Add padding BETWEEN each column */
+  .row,
+  .row>.column {
+    padding: 0rem;
+  }
+
+  .w3-jumbo {
+    font-size: 1rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 100;
+    background-color: #008CBA;
+  }
+}

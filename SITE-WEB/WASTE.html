@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>NP Nico Pereira | WASTE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .body {
+      margin: 0;
+
+    }
+
+    .header {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 0.25rem;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%;
+      /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 5rem;
+      vertical-align: middle;
+      width: 100%;
+      margin-bottom: 5rem;
+      margin-left: 15rem;
+    }
+
+    .title {
+      font-family: 'Staatliches', cursive;
+      font-size: 5rem;
+      letter-spacing: 3.25rem;
+    }
+
+
+    /*button style*/
+    a {
+      padding-left: 3rem;
+    }
+
+    /* Container holding the image and the text */
+    .container {
+      position: relative;
+      color: white;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    /* Bottom right text */
+    .bottom-right {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 11rem;
+    }
+
+    p {
+      text-align: center;
+      font-family: 'Staatliches', cursive;
+      font-size: 1.5em;
+      letter-spacing: 0.8rem;
+    }
+
+    .p2 {
+      text-align: center;
+      font-family: 'Staatliches', cursive;
+      font-size: 1rem;
+      letter-spacing: 0.8rem;
+    }
+
+    img {
+      width: 80%;
+      margin-right: 1.25rem;
+      margin-bottom: 1rem;
+      margin-left: 2rem;
+
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 1000px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+
+      .title {
+        font-size: 4rem;
+        margin-left: 2rem;
+      }
+
+      p {
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        font-size: 1em;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0
+      }
+
+      .logo {
+        margin-left: 0;
+        margin-right: 3rem;
+      }
+
+      p {
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        font-size: 1em;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        letter-spacing: 0.2rem;
+      }
+
+      .title {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+      }
+
+
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+
+      .column img {
+        margin-top: 5rem;
+        vertical-align: middle;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+  </style>
+  <link rel="shortcut icon" type="image/ico" href="IMG/favicon.ico" />
+</head>
+<!-- Header -->
+
+<body>
+  <a href="index.html#photos"><img class="logo" src="IMG/logo_np.png" style="width:5%"></a>
+  <header class="w3-center w3-margin-bottom">
+    <h1 class="title">WASTE</h1>
+
+    <p>STOP PLASTIC POLLUTION.</p>
+    <p class="p2">PROJECT MADE WITH NOE FARDEL</p>
+  </header>
+  <div class="row">
+    <div class="column">
+      <img src="WASTE/MEDUSA.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="WASTE/int.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="WASTE/MEDUSA2.jpg" style="width:100%">
+    </div>
+
+  </div>
+  </div>
+
+</body>
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <p class="w3-medium">Designed by Nico Pereira</p>
+  <!-- End footer -->
+</footer>
+
+</html>
