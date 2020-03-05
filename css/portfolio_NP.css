@@ -133,42 +133,13 @@ body {
 }
 
 /* effects img */
-.container {
-  position: relative;
-  width: 100%;
-}
-
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
 /* End-Gallery */
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
 /* START-VIDEO*/
 #myVideo {
   right: 0;
@@ -205,18 +176,6 @@ video {
   color: black;
 }
 
-/* COMING SOON OVERLAY*/
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: BLACK;
-}
-
 .text {
   font-size: 5rem;
   position: absolute;
@@ -228,15 +187,6 @@ video {
   transform: translate(-50%, -50%);
   text-align: center;
   color: pink;
-}
-
-.container {
-  position: relative;
-  background-color: BLACK;
-}
-
-.container:hover .overlay {
-  opacity: 1;
 }
 
 #myBtn {
@@ -492,18 +442,6 @@ video {
     font-size: 0.7rem;
   }
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 100;
-    background-color: #008CBA;
-  }
-
   .w3-jumbo {
     font-size: 5rem;
   }
@@ -551,17 +489,5 @@ video {
     padding-top: 1rem;
     text-align: center;
     font-size: 2rem;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 100;
-    background-color: #008CBA;
   }
 }
