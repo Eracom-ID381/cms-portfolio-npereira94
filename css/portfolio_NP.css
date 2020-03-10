@@ -27,11 +27,11 @@ h1 {
 }
 
 #others {
-  margin-left: 10rem;
+  margin-left: auto;
 }
 
 #contact {
-  margin-left: 10rem;
+  margin-left: auto;
 }
 
 .aboutmelist {
@@ -268,7 +268,8 @@ video {
   }
 
   #main {
-    margin-left: auto;
+    margin-left: 3rem;
+    ;
   }
 
   #about {
@@ -278,6 +279,11 @@ video {
 
   #videos {
     margin-left: 10rem;
+    margin-right: 5rem;
+  }
+
+  #others {
+    margin-left: auto;
   }
 
   #contact {
@@ -326,10 +332,26 @@ video {
   .aboutme {
     font-size: 1rem;
   }
+
+  .w3-xlarge {
+    margin-left: 10rem;
+  }
+
+  .w3-xlarge {
+    margin-left: 10rem;
+  }
 }
 
 /* between tablet and mobile*/
 @media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 100%;
+  }
+
+  /* Padding left main*/
+  .main {
+    padding-left: 1rem;
+  }
 
   /* main=home*/
   #main {
@@ -347,7 +369,7 @@ video {
   }
 
   #others {
-    margin-left: 5rem;
+    margin-left: auto;
   }
 
   #contact {
@@ -368,10 +390,28 @@ video {
     padding-top: 2rem;
     text-align: center;
   }
+
+  .footer {
+    margin-left: 10rem;
+  }
+
+  .w3-xlarge {
+    margin-left: 5rem;
+  }
 }
 
 /* Mobile*/
 @media only screen and (max-width: 543px) {
+  .main {
+    padding-left: 1rem;
+  }
+
+  /* Content */
+  .content {
+    padding: 0.5rem;
+    font-size: 0.2rem;
+  }
+
   #main {
     margin-left: 0;
   }
@@ -457,6 +497,10 @@ video {
 
 /* Mobile smaller*/
 @media only screen and (max-width: 300px) {
+  .main {
+    padding-left: 1rem;
+  }
+
   #main {
     margin-left: 0;
   }
@@ -502,5 +546,22 @@ video {
   p {
     font-size: 0.5rem;
     margin-left: 0.5rem;
+  }
+
+  .w3-small {
+    font-size: 0.5rem;
+  }
+
+  .w3-bar .w3-button {
+    padding: 8px 1px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+  }
+
+  .w3-xlarge {
+    margin-left: 1rem;
   }
 }
