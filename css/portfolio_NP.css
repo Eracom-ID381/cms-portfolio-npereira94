@@ -15,11 +15,23 @@ h1 {
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {
-  margin-left: 7.5rem;
+  margin-left: auto;
 }
 
 #about {
-  margin: auto;
+  margin-left: auto;
+}
+
+#videos {
+  margin-left: auto;
+}
+
+#others {
+  margin-left: 10rem;
+}
+
+#contact {
+  margin-left: 10rem;
 }
 
 .aboutmelist {
@@ -177,16 +189,6 @@ video {
   color: pink;
 }
 
-#myBtn {
-  width: 1rem;
-  font-size: 0.3rem;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: yellow;
-  cursor: pointer;
-}
-
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -219,34 +221,6 @@ video {
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9);
   /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom {
@@ -294,12 +268,20 @@ video {
   }
 
   #main {
-    margin-left: 1rem;
+    margin-left: auto;
   }
 
   #about {
     margin-left: 10rem;
     margin-right: 5rem;
+  }
+
+  #videos {
+    margin-left: 10rem;
+  }
+
+  #contact {
+    margin-left: 10rem;
   }
 
   .w3-button {
@@ -348,9 +330,6 @@ video {
 
 /* between tablet and mobile*/
 @media only screen and (max-width: 600px) {
-  .modal-content {
-    width: 100%;
-  }
 
   /* main=home*/
   #main {
@@ -362,13 +341,26 @@ video {
     margin-right: 5rem;
   }
 
+  #videos {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #others {
+    margin-left: 5rem;
+  }
+
+  #contact {
+    margin-left: 5rem;
+  }
+
   .w3-jumbo {
     font-size: 6rem;
   }
 
   .subtittle {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     padding-bottom: 11rem;
   }
 
@@ -387,6 +379,19 @@ video {
   #about {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  #videos {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #others {
+    margin-left: 5rem;
+  }
+
+  #contact {
+    margin-left: 5rem;
   }
 
   /* Style the buttons (others) */
@@ -461,9 +466,17 @@ video {
     margin-right: 1rem;
   }
 
-  video {
+  #videos {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  #others {
+    margin-left: 1rem;
+  }
+
+  #contact {
+    margin-left: 1rem;
   }
 
   .w3-jumbo {
