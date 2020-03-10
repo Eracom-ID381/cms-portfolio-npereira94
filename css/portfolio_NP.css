@@ -261,6 +261,86 @@ video {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1000px) {
+  .modal-content {
+    width: 100%;
+  }
+
+  #main {
+    margin-left: 3rem;
+    ;
+  }
+
+  #about {
+    margin-left: 10rem;
+    margin-right: 5rem;
+  }
+
+  #videos {
+    margin-left: 10rem;
+    margin-right: 5rem;
+  }
+
+  #others {
+    margin-left: auto;
+  }
+
+  #contact {
+    margin-left: 10rem;
+  }
+
+  .w3-button {
+    style="width:10%;
+
+  }
+
+  .w3-jumbo {
+    font-size: 5rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 11rem;
+  }
+
+  h1 {
+    padding-top: 11rem;
+    text-align: center;
+  }
+
+  .w3-bar-item {
+    style="width:10%;
+
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+
+  .aboutmelist {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .aboutme {
+    font-size: 1rem;
+  }
+
+  .w3-xlarge {
+    margin-left: 10rem;
+  }
+
+  .w3-xlarge {
+    margin-left: 10rem;
+  }
+}
+
 /* Tablet*/
 @media only screen and (max-width: 768px) {
   .modal-content {
@@ -553,7 +633,7 @@ video {
   }
 
   .w3-bar .w3-button {
-    padding: 8px 1px;
+    padding: 20px 1px;
     float: left;
     width: auto;
     border: none;
