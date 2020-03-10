@@ -49,6 +49,34 @@
     margin-bottom: 30px;
   }
 
+  @media only screen and (max-width: 1000px) {
+
+
+    /* START-Base*/
+    h4 {
+      font-family: 'Staatliches', cursive;
+      letter-spacing: 8px;
+      font-size: 1rem;
+    }
+
+    .title {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    .w3-col.l3 {}
+
+    iframe {
+      width: 100%;
+      height: 100%;
+
+    }
+
+  }
+
   /* Tablet*/
   @media only screen and (max-width: 768px) {
 
@@ -68,16 +96,6 @@
       font-size: 0.8rem;
     }
 
-    .grid-item {
-      padding: 0.1rem;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-gap: 0.1rem 0.3rem;
-      grid-template-columns: auto auto auto;
-      padding: 0.5rem;
-    }
   }
 
   /* Mobile*/
@@ -101,6 +119,40 @@
       width: 70%;
       height: 70%;
       padding-right: 1.5rem;
+    }
+
+    /* Footer*/
+    .w3-xlarge {
+      margin-left: 1rem;
+    }
+  }
+
+  /* Mobile*/
+  @media only screen and (max-width: 300px) {
+
+    .title {
+      font-size: 0.5rem;
+
+      padding-top: 3rem;
+    }
+
+    h4 {
+      font-size: 0.6rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    iframe {
+      width: 80%;
+      height: 80%;
+
+    }
+
+    /* Footer*/
+    .w3-xlarge {
+      margin-left: 1rem;
     }
   }
 </style>
