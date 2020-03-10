@@ -11,7 +11,6 @@ a {
 h1 {
   padding-top: 11rem;
   text-align: center;
-  font-size: 2rem;
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
@@ -136,13 +135,6 @@ body {
   color: white;
 }
 
-/* effects img */
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 /* End-Gallery */
 /* START-VIDEO*/
 #myVideo {
@@ -155,14 +147,6 @@ body {
 video {
   width: 100%;
   height: auto;
-}
-
-.content-video {
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
 }
 
 #myBtn {
@@ -391,7 +375,6 @@ video {
   h1 {
     padding-top: 2rem;
     text-align: center;
-    font-size: 2rem;
   }
 }
 
@@ -402,8 +385,8 @@ video {
   }
 
   #about {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   /* Style the buttons (others) */
@@ -447,12 +430,6 @@ video {
     font-size: 0.8rem;
   }
 
-  /* Content */
-  .content {
-    padding: 0.5rem;
-    font-size: 0.2rem;
-  }
-
   h4 {
     font-size: 0.7rem;
   }
@@ -470,18 +447,21 @@ video {
   h1 {
     padding-top: 2rem;
     text-align: center;
-    font-size: 2rem;
   }
 }
 
 /* Mobile smaller*/
 @media only screen and (max-width: 300px) {
   #main {
+    margin-left: 0;
+  }
+
+  #about {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
-  #about {
+  video {
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -499,7 +479,6 @@ video {
   h1 {
     padding-top: 1rem;
     text-align: center;
-    font-size: 2rem;
   }
 
   h4 {
