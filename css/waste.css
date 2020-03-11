@@ -1,0 +1,196 @@
+.m-1 {
+  margin: 3rem;
+  margin-left: 6rem;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  font-family: 'Staatliches', cursive;
+  font-size: 5rem;
+  letter-spacing: 3.25rem;
+}
+
+/*button style*/
+a {
+  padding-left: 3rem;
+}
+
+p {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+  letter-spacing: 0.8rem;
+}
+
+.p2 {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 1rem;
+  letter-spacing: 0.8rem;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1500px) {
+  .title {
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+
+  .m6 {
+    margin-left: 1.5rem;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+
+  .m6 {
+    margin-left: 1.5rem;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 4rem;
+    margin-left: 2rem;
+  }
+
+  .m6 {
+    margin-left: 12rem;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  /* Footer*/
+  .w3-medium {
+    margin-top: 130rem;
+  }
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-left: 0;
+    margin-right: 3rem;
+  }
+
+  .m6 {
+    margin-left: 6rem;
+    width: 70%;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 400px) {
+  .logo {
+    margin-left: 0;
+    margin-right: 3rem;
+  }
+
+  .m6 {
+    margin-left: 4rem;
+    width: 70%;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+
+  /* Footer*/
+  .w3-medium {
+    margin-top: 1rem;
+  }
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 300px) {
+  .logo {
+    margin-left: 0;
+    margin-right: 3rem;
+  }
+
+  .m6 {
+    margin-left: 3rem;
+    width: 70%;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+
+  /* Footer*/
+  .w3-medium {
+    margin-top: 13rem;
+  }
+}
