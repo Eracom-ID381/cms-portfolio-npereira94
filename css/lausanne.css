@@ -99,11 +99,33 @@ p {
     font-size: 2rem;
   }
 
-  .bottom-right {
-    position: absolute;
-    bottom: 0.1rem;
-    right: 1.5rem;
-    font-size: 0.8rem;
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 300px) {
+  #main {
+    margin-left: 0
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
