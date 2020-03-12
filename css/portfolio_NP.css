@@ -147,6 +147,21 @@ body {
   color: white;
 }
 
+.button {
+  padding: 0.8rem 2rem;
+  font-size: 80%;
+}
+
+.button-primary {
+  background-color: white;
+  color: black;
+}
+
+.button-primary:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 /* End-Gallery */
 /* START-VIDEO*/
 #myVideo {
@@ -720,6 +735,78 @@ video {
 }
 
 /* Mobile smaller*/
+@media only screen and (max-width: 350px) {
+  .main {
+    padding-left: 1rem;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+
+  #about {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #videos {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #others {
+    margin-left: 1rem;
+  }
+
+  #contact {
+    margin-left: 1rem;
+  }
+
+  .w3-jumbo {
+    font-size: 3rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .w3-small {
+    font-size: 0.5rem;
+  }
+
+  .w3-bar .w3-button {
+    padding: 20px 1px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+  }
+
+  /* Footer*/
+  .w3-xlarge {
+    margin-left: 1rem;
+  }
+}
+
+/* Mobile smaller*/
 @media only screen and (max-width: 300px) {
   .main {
     padding-left: 1rem;
@@ -789,4 +876,46 @@ video {
   .w3-xlarge {
     margin-left: 1rem;
   }
+}
+
+/* nolan */
+.container {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
