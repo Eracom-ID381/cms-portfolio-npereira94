@@ -20,9 +20,14 @@ h1 {
 
 .aboutmelist {
   font-size: 1.5rem;
-  text-align: left;
+  text-align: just;
   color: pink;
   padding-bottom: 8rem;
+}
+
+.aboutme {
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 .w3-row-padding img {
@@ -32,11 +37,6 @@ h1 {
 p {
   font-size: 0.9rem;
   text-align: left;
-}
-
-.aboutme {
-  font-size: 1.5rem;
-  text-align: justify;
 }
 
 .subtittle {
