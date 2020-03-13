@@ -175,19 +175,6 @@ video {
   color: black;
 }
 
-.text {
-  font-size: 5rem;
-  position: absolute;
-  font-family: 'Roboto Mono', monospace;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: pink;
-}
-
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -393,12 +380,12 @@ video {
 
   /* Padding left main*/
   .main {
-    padding-left: 1rem;
+    padding-left: auto;
   }
 
-  /* main=home*/
+  /* main=Home*/
   #main {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .w3-jumbo {
@@ -428,7 +415,7 @@ video {
 /* Mobile*/
 @media only screen and (max-width: 543px) {
   .main {
-    padding-left: 1rem;
+    padding-left: auto;
   }
 
   /* Content */
@@ -438,7 +425,7 @@ video {
   }
 
   #main {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   /* Style the buttons (others) */
@@ -510,24 +497,6 @@ video {
 
   #main {
     margin-left: 0;
-  }
-
-  #about {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  #videos {
-    margin-left: 0rem;
-    margin-right: 1rem;
-  }
-
-  #others {
-    margin-left: 1rem;
-  }
-
-  #contact {
-    margin-left: 0rem;
   }
 
   .w3-jumbo {
