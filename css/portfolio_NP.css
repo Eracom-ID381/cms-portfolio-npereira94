@@ -18,6 +18,16 @@ h1 {
   margin-left: auto;
 }
 
+/* Center website */
+.main {
+  max-width: 62.5rem;
+  margin: auto;
+}
+
+.w3-jumbo {
+  font-size: 10rem;
+}
+
 .aboutmelist {
   font-size: 1.5rem;
   text-align: just;
@@ -59,12 +69,6 @@ p {
 body {
   background-color: #f1f1f1;
   font-family: 'Roboto Mono', monospace;
-}
-
-/* Center website */
-.main {
-  max-width: 62.5rem;
-  margin: auto;
 }
 
 .row {
@@ -131,6 +135,7 @@ body {
   color: white;
 }
 
+/* Button Cv */
 .CV {
   padding: 0.8rem 2rem;
   font-size: 80%;
@@ -247,14 +252,18 @@ video {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1000px) {
-  .modal-content {
-    width: 100%;
+/*  breakpoint at 996 */
+@media only screen and (max-width: 1200px) {
+
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: auto;
   }
 
-  #main {
-    margin-left: 3rem;
-    ;
+  /* Center website */
+  .main {
+    max-width: 62.5rem;
+    margin-left: 10rem;
   }
 
   .w3-button {
@@ -263,7 +272,7 @@ video {
   }
 
   .w3-jumbo {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .subtittle {
@@ -298,10 +307,6 @@ video {
 
   .aboutme {
     font-size: 1rem;
-  }
-
-  .w3-xlarge {
-    margin-left: 10rem;
   }
 
   .w3-xlarge {
