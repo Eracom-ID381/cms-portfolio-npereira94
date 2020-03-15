@@ -13,6 +13,29 @@ h1 {
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.w3-jumbo {
+  font-size: 20rem;
+}
+
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 /* Center website */
 .main {
@@ -20,8 +43,10 @@ h1 {
   margin: auto;
 }
 
-.w3-jumbo {
-  font-size: 10rem;
+.subtittle {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 11rem;
 }
 
 .aboutmelist {
@@ -40,17 +65,6 @@ h1 {
   margin-bottom: 0.75rem;
 }
 
-p {
-  font-size: 0.9rem;
-  text-align: left;
-}
-
-.subtittle {
-  text-align: center;
-  font-size: 5rem;
-  padding-bottom: 11rem;
-}
-
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {
   width: 80px;
@@ -58,15 +72,6 @@ p {
 }
 
 /* START-Gallery */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f1f1f1;
-  font-family: 'Roboto Mono', monospace;
-}
-
 .row {
   margin: 0.75rem -1rem;
 }
@@ -147,18 +152,12 @@ body {
   color: black;
 }
 
-/* End-Gallery */
 /* START-VIDEO*/
 #myVideo {
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-}
-
-video {
-  width: 100%;
-  height: auto;
 }
 
 #myBtn {
@@ -267,7 +266,7 @@ video {
 
   .subtittle {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 15rem;
     padding-bottom: 11rem;
   }
 
@@ -309,6 +308,10 @@ video {
     margin-left: 8rem;
     margin-right: 8rem;
   }
+
+  .w3-jumbo {
+    font-size: 5rem;
+  }
 }
 
 /* Tablet*/
@@ -324,7 +327,7 @@ video {
   }
 
   .w3-jumbo {
-    font-size: 5rem;
+    font-size: 8rem;
   }
 
   .subtittle {
@@ -376,10 +379,6 @@ video {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-}
-
-.w3-jumbo {
-  font-size: 6rem;
 }
 
 .subtittle {
