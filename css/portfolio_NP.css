@@ -180,7 +180,7 @@ video {
   text-align: center;
 }
 
-.container-eye:hover .image {
+.container-eye:hover .cover {
   opacity: 0.3;
 }
 
