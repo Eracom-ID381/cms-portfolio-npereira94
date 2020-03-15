@@ -14,10 +14,6 @@ h1 {
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {
-  margin-left: auto;
-}
-
 /* Center website */
 .main {
   max-width: 62.5rem;
@@ -252,18 +248,11 @@ video {
   cursor: pointer;
 }
 
-/*  breakpoint at 996 */
+/*  breakpoint at ??? */
 @media only screen and (max-width: 1200px) {
-
-  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-  #main {
-    margin-left: auto;
-  }
-
-  /* Center website */
-  .main {
-    max-width: 62.5rem;
-    margin-left: 10rem;
+  .w3-padding-large {
+    margin-left: 8rem;
+    margin-right: 2rem;
   }
 
   .w3-button {
@@ -271,8 +260,9 @@ video {
 
   }
 
+  /* HEADER */
   .w3-jumbo {
-    font-size: 4rem;
+    font-size: 10rem;
   }
 
   .subtittle {
@@ -314,15 +304,18 @@ video {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .w3-padding-large {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+
 /* Tablet*/
 @media only screen and (max-width: 768px) {
-  .modal-content {
-    width: 100%;
-  }
-
-  #main {
-    margin-left: 3rem;
-    ;
+  .w3-padding-large {
+    margin-left: 8rem;
+    margin-right: 4rem;
   }
 
   .w3-button {
@@ -379,48 +372,41 @@ video {
 
 /* between tablet and mobile*/
 @media only screen and (max-width: 600px) {
-  .modal-content {
-    width: 100%;
+  .w3-padding-large {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
+}
 
-  /* Padding left main*/
-  .main {
-    padding-left: auto;
-  }
+.w3-jumbo {
+  font-size: 6rem;
+}
 
-  /* main=Home*/
-  #main {
-    margin-left: auto;
-  }
+.subtittle {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 11rem;
+}
 
-  .w3-jumbo {
-    font-size: 6rem;
-  }
+h1 {
+  padding-top: 2rem;
+  text-align: center;
+}
 
-  .subtittle {
-    text-align: center;
-    font-size: 3rem;
-    padding-bottom: 11rem;
-  }
+.footer {
+  margin-left: 10rem;
+}
 
-  h1 {
-    padding-top: 2rem;
-    text-align: center;
-  }
-
-  .footer {
-    margin-left: 10rem;
-  }
-
-  .w3-xlarge {
-    margin-left: 5rem;
-  }
+.w3-xlarge {
+  margin-left: 5rem;
+}
 }
 
 /* Mobile*/
 @media only screen and (max-width: 543px) {
-  .main {
-    padding-left: auto;
+  .w3-padding-large {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   /* Content */
@@ -429,8 +415,8 @@ video {
     font-size: 0.2rem;
   }
 
-  #main {
-    margin-left: auto;
+  .w3-jumbo {
+    font-size: 5rem;
   }
 
   /* Style the buttons (others) */
@@ -478,10 +464,6 @@ video {
     font-size: 0.7rem;
   }
 
-  .w3-jumbo {
-    font-size: 5rem;
-  }
-
   .subtittle {
     text-align: center;
     font-size: 2rem;
@@ -495,121 +477,61 @@ video {
 }
 
 /* Mobile smaller*/
-@media only screen and (max-width: 400px) {
-  .main {
-    padding-left: 0rem;
-  }
-
-  #main {
-    margin-left: 0;
-  }
-
-  .w3-jumbo {
-    font-size: 5rem;
-  }
-
-  .subtittle {
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 1rem;
-  }
-
-  h1 {
-    padding-top: 1rem;
-    text-align: center;
-  }
-
-  h4 {
-    font-size: 0.5rem;
-    margin-left: 0.5rem;
-  }
-
-  p {
-    font-size: 0.5rem;
-    margin-left: 0.5rem;
-  }
-
-  .w3-small {
-    font-size: 0.5rem;
-  }
-
-  .w3-bar .w3-button {
-    padding: 20px 1px;
-    float: left;
-    width: auto;
-    border: none;
-    display: block;
-    outline: 0;
-  }
-
-  /* Footer*/
-  .w3-xlarge {
-    margin-left: 0;
-  }
-}
-
-/* Mobile smaller*/
-@media only screen and (max-width: 375px) {
-  .main {
-    padding-left: 0rem;
-  }
-
-  #main {
-    margin-left: 0;
-  }
-
-  .w3-jumbo {
-    font-size: 5rem;
-  }
-
-  .subtittle {
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 1rem;
-  }
-
-  h1 {
-    padding-top: 1rem;
-    text-align: center;
-  }
-
-  h4 {
-    font-size: 0.5rem;
-    margin-left: 0.5rem;
-  }
-
-  p {
-    font-size: 0.5rem;
-    margin-left: 0.5rem;
-  }
-
-  .w3-small {
-    font-size: 0.5rem;
-  }
-
-  .w3-bar .w3-button {
-    padding: 20px 1px;
-    float: left;
-    width: auto;
-    border: none;
-    display: block;
-    outline: 0;
-  }
-
-  /* Footer*/
-  .w3-xlarge {
+@media only screen and (max-width: 480px) {
+  .w3-padding-large {
     margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .w3-jumbo {
+    font-size: 5rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .w3-small {
+    font-size: 0.5rem;
+  }
+
+  .w3-bar .w3-button {
+    padding: 20px 1px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+  }
+
+  /* Footer*/
+  .w3-xlarge {
+    margin-left: 0;
   }
 }
 
 /* Mobile smaller*/
-@media only screen and (max-width: 350px) {
-  .main {
-    padding-left: 1rem;
-  }
-
-  #main {
-    margin-left: 0;
+@media only screen and (max-width: 320px) {
+  .w3-padding-large {
+    margin-left: 0.5rem;
+    margin-right: 0.9rem;
   }
 
   .w3-jumbo {
@@ -658,8 +580,9 @@ video {
 
 /* Mobile smaller*/
 @media only screen and (max-width: 300px) {
-  #main {
-    margin-left: 0;
+  .w3-padding-large {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
   }
 
   .w3-jumbo {
