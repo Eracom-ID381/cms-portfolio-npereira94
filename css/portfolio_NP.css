@@ -290,6 +290,38 @@ video {
 
 /*  breakpoint at ??? */
 @media only screen and (max-width: 1200px) {
+  h1 {
+    padding-top: 11rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+
+  .w3-bar-item {
+    style="width:10%;
+
+  }
+
+  .aboutmelist {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .aboutme {
+    font-size: 1rem;
+  }
+
+  .w3-xlarge {
+    margin-left: 10rem;
+  }
+
   .w3-padding-large {
     margin-left: 8rem;
     margin-right: 2rem;
@@ -310,38 +342,6 @@ video {
     font-size: 15rem;
     padding-bottom: 11rem;
   }
-
-  h1 {
-    padding-top: 11rem;
-    text-align: center;
-  }
-
-  .w3-bar-item {
-    style="width:10%;
-
-  }
-
-  h4 {
-    font-size: 0.8rem;
-    text-align: left;
-  }
-
-  p {
-    font-size: 0.5rem;
-  }
-
-  .aboutmelist {
-    font-size: 1rem;
-    text-align: left;
-  }
-
-  .aboutme {
-    font-size: 1rem;
-  }
-
-  .w3-xlarge {
-    margin-left: 10rem;
-  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -357,34 +357,9 @@ video {
 
 /* Tablet*/
 @media only screen and (max-width: 768px) {
-  .w3-padding-large {
-    margin-left: 8rem;
-    margin-right: 4rem;
-  }
-
-  .w3-button {
-    style="width:10%;
-
-  }
-
-  .w3-jumbo {
-    font-size: 8rem;
-  }
-
-  .subtittle {
-    text-align: center;
-    font-size: 1.5rem;
-    padding-bottom: 11rem;
-  }
-
   h1 {
     padding-top: 11rem;
     text-align: center;
-  }
-
-  .w3-bar-item {
-    style="width:10%;
-
   }
 
   h4 {
@@ -403,6 +378,31 @@ video {
 
   .aboutme {
     font-size: 1rem;
+  }
+
+  .subtittle {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 11rem;
+  }
+
+  .w3-bar-item {
+    style="width:10%;
+
+  }
+
+  .w3-padding-large {
+    margin-left: 8rem;
+    margin-right: 4rem;
+  }
+
+  .w3-button {
+    style="width:10%;
+
+  }
+
+  .w3-jumbo {
+    font-size: 8rem;
   }
 
   .w3-xlarge {
@@ -420,26 +420,25 @@ video {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-}
 
-.subtittle {
-  text-align: center;
-  font-size: 3rem;
-  padding-bottom: 11rem;
-}
+  .subtittle {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 11rem;
+  }
 
-h1 {
-  padding-top: 2rem;
-  text-align: center;
-}
+  h1 {
+    padding-top: 2rem;
+    text-align: center;
+  }
 
-.footer {
-  margin-left: 10rem;
-}
+  .footer {
+    margin-left: 10rem;
+  }
 
-.w3-xlarge {
-  margin-left: 5rem;
-}
+  .w3-xlarge {
+    margin-left: 5rem;
+  }
 }
 
 /* Mobile*/
