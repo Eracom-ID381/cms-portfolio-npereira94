@@ -31,21 +31,9 @@ video {
   height: auto;
 }
 
-.w3-jumbo {
-  font-size: 15rem;
-}
-
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-/* Center website */
-.main {
-  max-width: 62.5rem;
-  margin: auto;
-}
-
-.subtittle {
-  text-align: center;
-  font-size: 5rem;
-  padding-bottom: 11rem;
+.aboutme {
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 .aboutmelist {
@@ -53,68 +41,6 @@ video {
   text-align: just;
   color: pink;
   padding-bottom: 8rem;
-}
-
-.aboutme {
-  font-size: 1.5rem;
-  text-align: justify;
-}
-
-.w3-row-padding img {
-  margin-bottom: 0.75rem;
-}
-
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {
-  width: 80px;
-  background: #222;
-}
-
-/* START-Gallery */
-.row {
-  margin: 0.75rem -1rem;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row>.column {
-  padding: 0.5rem;
-}
-
-.row>.list {
-  padding: 0.5rem;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-/* Hide all elements by default */
-.list {
-  float: left;
-  width: 33.33%;
-  display: none;
-  /* Hide all elements by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: black;
-  padding: 0.5rem;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
 }
 
 /* Style the buttons (others) */
@@ -133,6 +59,18 @@ video {
 .btn.active {
   background-color: pink;
   color: white;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 0.5rem;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
 }
 
 /* Button Cv */
@@ -168,6 +106,32 @@ video {
   backface-visibility: hidden;
 }
 
+.container-eye:hover .cover {
+  opacity: 0.3;
+}
+
+.container-eye:hover .middle {
+  opacity: 1;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -179,12 +143,66 @@ video {
   text-align: center;
 }
 
-.container-eye:hover .cover {
-  opacity: 0.3;
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+/* Center website */
+.main {
+  max-width: 62.5rem;
+  margin: auto;
 }
 
-.container-eye:hover .middle {
-  opacity: 1;
+.subtittle {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 11rem;
+}
+
+.w3-jumbo {
+  font-size: 15rem;
+}
+
+.w3-row-padding img {
+  margin-bottom: 0.75rem;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 80px;
+  background: #222;
+}
+
+/* START-Gallery */
+.row {
+  margin: 0.75rem -1rem;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+  padding: 0.5rem;
+}
+
+.row>.list {
+  padding: 0.5rem;
+}
+
+/* Hide all elements by default */
+.list {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
 }
 
 .text-eye {
@@ -268,24 +286,6 @@ video {
   to {
     transform: scale(1)
   }
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 /*  breakpoint at ??? */
