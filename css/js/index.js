@@ -1,5 +1,4 @@
-< script type = "text/javascript" >
-  filterSelection("all")
+filterSelection("all")
 
 function filterSelection(c) {
   var x, i;
@@ -64,6 +63,5 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-    modal.style.display = "none";
-  } <
-  /script>
+  modal.style.display = "none";
+}
