@@ -1,0 +1,370 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.25rem;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.aboutme {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.aboutmelist {
+  font-size: 1.5rem;
+  text-align: just;
+  color: pink;
+  padding-bottom: 8rem;
+}
+
+/* :: 6.0 Buttons CSS */
+.btn:focus {
+  box-shadow: none;
+}
+
+.alime-btn {
+  position: relative;
+  z-index: 1;
+  min-width: 160px;
+  height: 46px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #fc6060;
+  border-radius: 60px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.alime-btn.btn-2 {
+  color: #252525;
+}
+
+.alime-btn:focus, .alime-btn:hover {
+  font-weight: 500;
+  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  background-color: #fc6060;
+  color: #ffffff;
+}
+
+.badges-btn {
+  background-color: #ebebeb;
+  padding: 5px 15px;
+  display: inline-block;
+  color: #636363;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 2px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  letter-spacing: 1px;
+}
+
+.badges-btn:hover, .badges-btn:focus {
+  background-color: #fc6060;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.single-welcome-slide {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 880px;
+  background-color: #fc6060;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-welcome-slide {
+    height: 750px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-welcome-slide {
+    height: 750px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-welcome-slide {
+    height: 600px;
+  }
+}
+
+.single-welcome-slide .welcome-text {
+  position: relative;
+  z-index: 1;
+}
+
+.single-welcome-slide .welcome-text h2 {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  font-size: 82px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-welcome-slide .welcome-text h2 {
+    font-size: 42px;
+  }
+}
+
+.single-welcome-slide .welcome-text p {
+  color: #ffffff;
+  margin-bottom: 50px;
+  display: block;
+}
+
+/* Style the buttons (others) */
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.75rem 1rem;
+  background-color: white;
+  cursor: crosshair;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: pink;
+  color: white;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 0.5rem;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Button Cv */
+.CV {
+  padding: 0.8rem 2rem;
+  font-size: 80%;
+}
+
+.CV-primary {
+  background-color: white;
+  color: black;
+}
+
+.CV-primary:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*   BIG PINK EYE*/
+.container-eye {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+.cover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container-eye:hover .cover {
+  opacity: 0.3;
+}
+
+.container-eye:hover .middle {
+  opacity: 1;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+/* Center website */
+.main {
+  max-width: 62.5rem;
+  margin: auto;
+}
+
+.subtittle {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 11rem;
+}
+
+.w3-jumbo {
+  font-size: 15rem;
+}
+
+.w3-row-padding img {
+  margin-bottom: 0.75rem;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 80px;
+  background: #222;
+}
+
+/* START-Gallery */
+.row {
+  margin: 0.75rem -1rem;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+  padding: 0.5rem;
+}
+
+.row>.list {
+  padding: 0.5rem;
+}
+
+/* Hide all elements by default */
+.list {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.text-eye {
+  color: pink;
+  font-size: 5rem;
+  padding: 16px 32px;
+}
+
+/* START-VIDEO*/
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#myBtn {
+  width: 12.5rem;
+  font-size: 1.25rem;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/*  Lightobox */
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}

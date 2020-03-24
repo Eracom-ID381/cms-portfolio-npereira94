@@ -14,6 +14,11 @@ body {
 h1, h2, h3, h4, h5, h6, button {
   font-family: 'Staatliches', cursive;
   letter-spacing: 0.25rem;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1 {
@@ -244,7 +249,7 @@ video {
   opacity: 0.7;
 }
 
-/*  Lightbox */
+/*  Lightobox */
 @-webkit-keyframes zoom {
   from {
     -webkit-transform: scale(0)
