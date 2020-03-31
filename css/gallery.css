@@ -52,6 +52,13 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+
+  /*button style*/
+  a {
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -77,6 +84,12 @@ p {
 @media only screen and (max-width: 600px) {
   #main {
     margin-left: 0
+  }
+
+  /*button style*/
+  a {
+    padding-left: 1rem;
+    padding-top: 2rem;
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
