@@ -7,7 +7,6 @@ a {
 }
 
 body {
-  z background-color: #f1f1f1;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -23,7 +22,6 @@ h1 {
 
 p {
   font-size: 0.9rem;
-  text-align: left;
 }
 
 video {
