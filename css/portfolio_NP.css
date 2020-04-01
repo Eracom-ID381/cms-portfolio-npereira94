@@ -584,6 +584,8 @@ video {
 
 /* Mobile smaller*/
 @media only screen and (max-width: 300px) {
+  .logo {}
+
   .w3-padding-large {
     margin-left: 0.9rem;
     margin-right: 0.9rem;
