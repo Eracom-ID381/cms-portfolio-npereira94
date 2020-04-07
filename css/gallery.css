@@ -77,6 +77,10 @@ p {
     margin-left: 2rem;
   }
 
+  .w3-medium {
+    font-size: 1rem;
+  }
+
   p {
     text-align: center;
     font-family: 'Staatliches', cursive;
