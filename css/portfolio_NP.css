@@ -422,6 +422,7 @@ video {
 
   .w3-jumbo {
     font-size: 5rem;
+    padding-top: 8rem;
   }
 
   /* Style the buttons (others) */
@@ -541,12 +542,13 @@ video {
 
   .w3-jumbo {
     font-size: 3rem;
+    padding-top: 5rem;
   }
 
   .subtittle {
     text-align: center;
     font-size: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 15rem;
   }
 
   h1 {
@@ -585,8 +587,6 @@ video {
 
 /* Mobile smaller*/
 @media only screen and (max-width: 300px) {
-  .logo {}
-
   .w3-padding-large {
     margin-left: 0.9rem;
     margin-right: 0.9rem;
@@ -594,12 +594,13 @@ video {
 
   .w3-jumbo {
     font-size: 3rem;
+    padding-top: 2rem;
   }
 
   .subtittle {
     text-align: center;
     font-size: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 10rem;
   }
 
   h1 {
