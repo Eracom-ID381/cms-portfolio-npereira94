@@ -119,12 +119,7 @@ p.fin {
   }
 
   iframe {
-    width: 80%;
-    height: 80%;
-  }
-
-  /* Footer*/
-  .w3-xlarge {
-    margin-left: 1rem;
+    width: 70%;
+    height: 70%;
   }
 }
