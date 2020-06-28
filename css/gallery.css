@@ -47,10 +47,6 @@
 }
 
 /*button style*/
-.logo {
-  padding-left: 3rem;
-}
-
 p {
   text-align: center;
   font-family: 'Staatliches', cursive;
@@ -97,6 +93,8 @@ p {
     padding-left: 1rem;
     padding-top: 1rem;
     width: 30%;
+    margin-left: 0;
+    margin-right: 3rem;
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -111,11 +109,6 @@ p {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-  }
-
-  .logo {
-    margin-left: 0;
-    margin-right: 3rem;
   }
 
   p {
